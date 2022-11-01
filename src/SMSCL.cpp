@@ -29,7 +29,7 @@ int SMSCL::WritePosEx(u8 ID, s16 Position, u16 Speed, u8 ACC)
 	u8 bBuf[7];
 	bBuf[0] = ACC;
 	Host2SCS(bBuf+1, bBuf+2, Position);
-	Host2SCS(bBuf+3, bBuf+4, 0);SMSCL_ACC
+	Host2SCS(bBuf+3, bBuf+4, 0);
 	Host2SCS(bBuf+5, bBuf+6, Speed);
 	
 	return genWrite(ID, SMSCL_ACC, bBuf, 7);

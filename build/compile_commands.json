@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/mrobotics/plaything/servos/SCServo_Linux/build",
+  "command": "/usr/bin/clang++  -std=c++11 -O3 -g -o CMakeFiles/test.dir/main.cpp.o -c /home/mrobotics/plaything/servos/SCServo_Linux/main.cpp",
+  "file": "/home/mrobotics/plaything/servos/SCServo_Linux/main.cpp"
+},
+{
+  "directory": "/home/mrobotics/plaything/servos/SCServo_Linux/build",
+  "command": "/usr/bin/clang++  -std=c++11 -O3 -g -o CMakeFiles/test.dir/SCS.cpp.o -c /home/mrobotics/plaything/servos/SCServo_Linux/SCS.cpp",
+  "file": "/home/mrobotics/plaything/servos/SCServo_Linux/SCS.cpp"
+},
+{
+  "directory": "/home/mrobotics/plaything/servos/SCServo_Linux/build",
+  "command": "/usr/bin/clang++  -std=c++11 -O3 -g -o CMakeFiles/test.dir/SCSCL.cpp.o -c /home/mrobotics/plaything/servos/SCServo_Linux/SCSCL.cpp",
+  "file": "/home/mrobotics/plaything/servos/SCServo_Linux/SCSCL.cpp"
+},
+{
+  "directory": "/home/mrobotics/plaything/servos/SCServo_Linux/build",
+  "command": "/usr/bin/clang++  -std=c++11 -O3 -g -o CMakeFiles/test.dir/SCSerial.cpp.o -c /home/mrobotics/plaything/servos/SCServo_Linux/SCSerial.cpp",
+  "file": "/home/mrobotics/plaything/servos/SCServo_Linux/SCSerial.cpp"
+},
+{
+  "directory": "/home/mrobotics/plaything/servos/SCServo_Linux/build",
+  "command": "/usr/bin/clang++  -std=c++11 -O3 -g -o CMakeFiles/test.dir/SMSBL.cpp.o -c /home/mrobotics/plaything/servos/SCServo_Linux/SMSBL.cpp",
+  "file": "/home/mrobotics/plaything/servos/SCServo_Linux/SMSBL.cpp"
+},
+{
+  "directory": "/home/mrobotics/plaything/servos/SCServo_Linux/build",
+  "command": "/usr/bin/clang++  -std=c++11 -O3 -g -o CMakeFiles/test.dir/SMSCL.cpp.o -c /home/mrobotics/plaything/servos/SCServo_Linux/SMSCL.cpp",
+  "file": "/home/mrobotics/plaything/servos/SCServo_Linux/SMSCL.cpp"
+},
+{
+  "directory": "/home/mrobotics/plaything/servos/SCServo_Linux/build",
+  "command": "/usr/bin/clang++  -std=c++11 -O3 -g -o CMakeFiles/test.dir/SMS_STS.cpp.o -c /home/mrobotics/plaything/servos/SCServo_Linux/SMS_STS.cpp",
+  "file": "/home/mrobotics/plaything/servos/SCServo_Linux/SMS_STS.cpp"
+}
+]

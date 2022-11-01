@@ -1,3 +1,0 @@
-/home/mrobotics/plaything/servos/SCServo_Linux_MR/cmake-build-debug/CMakeFiles/test.dir
-/home/mrobotics/plaything/servos/SCServo_Linux_MR/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/mrobotics/plaything/servos/SCServo_Linux_MR/cmake-build-debug/CMakeFiles/rebuild_cache.dir

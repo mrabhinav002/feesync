@@ -10,6 +10,8 @@ namespace feetech {
             printf("Failed to init scscl motor!");
             return;
         }
+       rlMap = InitRegisterMap(Model::SMSCL);
+
     }
 
     int Feetech::WritePosition(u8 ID, s16 Position, u16 Speed, u8 ACC) {
@@ -33,7 +35,6 @@ namespace feetech {
     }
 
     int Feetech::WheelMode(u8 ID) {
-
         return smscl.WheelMode(ID);
     }
 

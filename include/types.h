@@ -8,11 +8,10 @@
 #include <unordered_map>
 
 namespace feetech {
-
+    
     enum class Model {
         SMSCL = 0, SMS_STS = 1, INVALID = -1
     };
-
 
     enum class Baudrate {
         k1M = 0,
@@ -87,13 +86,12 @@ namespace feetech {
     };
 
     /**
-     * @brief
+     * @brief Single Register Write.
      */
     struct genWrite {
         u8 ID;
         Register reg;
         u8 *bBuf;
-        u8 nLen;
     };
 
     /**

@@ -9,9 +9,10 @@
 #include "types.h"
 #include <string>
 
+
 namespace feetech {
 
-
+    typedef std::unordered_map<Register, u8> regLenMap;
     class Feetech {
     public:
         Feetech(std::string &port, Baudrate baudrate);
@@ -162,7 +163,7 @@ namespace feetech {
     private:
         SMSCL smscl;
         SMS_STS smssts;
-
+        regLenMap rlMap;
     };
 
 }
